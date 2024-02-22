@@ -5,11 +5,12 @@ import { Link } from 'react-router-dom';
 import NewCounter from './NewCounter';
 
 export default function Home() {
+    
     // Date when the image/link was added or became active
     const startDate = new Date('2024-02-22');
     // Calculate the end date (7 days after the start date)
     // const endDate = new Date(startDate.getTime() + ((16*60+1)*60*1000));
-    const endDate = new Date(startDate.getTime() + 30 * 24 * 60 * 60 * 1000);
+    const endDate = new Date(startDate.getTime() + 30 * 24 * 60 * 60 * 500);
     // Get the current date
     const currentDate = new Date();
 
@@ -130,9 +131,7 @@ export default function Home() {
                                 <h3>SEMINARS & WEBINARS</h3>
                                 <br></br>
                                 <ul>
-                                    <li><Link aria-current="page" to="/apratim-talk"><i className="bi bi-check-circle-fill onfocus"></i>Chemical Engineering Department Seminar Series - Expert talk by Dr. Apratim Chatterji 
-                                    {showImage && <img src="https://nta.ac.in/img/newicon.gif"></img>}
-                                    </Link></li>
+                                    <li><Link aria-current="page" to="/apratim-talk"><i className="bi bi-check-circle-fill onfocus"></i>Chemical Engineering Department Seminar Series - Expert talk by Dr. Apratim Chatterji { showImage&& <img className='img1' src='https://nta.ac.in/img/newicon.gif'></img>}</Link></li>
                                     <li><Link aria-current="page" to="/chaitanya-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert talk by Mr. Gottimukkala Chaitanya</Link></li>
                                     <li><Link aria-current="page" to="/mandalSandeep-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert talk by Prof. D. Mandal and Dr. Sandeep K.C.</Link></li>
                                     <li><Link aria-current="page" to="/aakash-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert Talk by Dr. Aakash Sharma</Link></li>
@@ -146,9 +145,7 @@ export default function Home() {
                                 <h3 style={{color:'var(--color-secondary)'}}>NOTICE BOARD</h3>
                                 <br></br>
                                 <ul>
-                                    <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/dept_upload/cml/PhD_Adv_Jan2024_image-2023-10-10-10-33-am.jpg" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>PhD Admissions AY 23-24 Sem II (Jan 2024) 
-                                    {showImage && <img src="https://nta.ac.in/img/newicon.gif"></img>}
-                                    </Link></li>
+                                    <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/dept_upload/cml/PhD_Adv_Jan2024_image-2023-10-10-10-33-am.jpg" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>PhD Admissions AY 23-24 Sem II (Jan 2024) { showImage&& <img src='https://nta.ac.in/img/newicon.gif'></img>} </Link></li>
                                     <li><Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ/status/1640662570922295296?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1640662570922295296%7Ctwgr%5Ec3b68ecf16beb1a1edf4d84c7ed50409e50bcfba%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiitj.ac.in%2Fdepartment%2Findex.php%3Fid%3Dresearch_highlights_and_initiativesnum%3D1045dept%3Dchemical" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>Congratulations to Dr. Nirmalya Bachhar for being awarded the MSRI prize</Link></li>
                                     <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/Rolling%20Advt.%20Ph.D.%202023_13032023.pdf" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>Rolling advertisement for Admission to Ph.D. Programmes</Link></li>
                                     <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/Advertisment_Mtech_Mtech%20phd_revised_12032023.pdf" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>Admission to M.Tech. and M.Tech.-Ph.D Dual Degree Programmes, AY 2023-24</Link></li>
@@ -194,11 +191,11 @@ export default function Home() {
                             <p>UG Students</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
-                            <span data-purecounter-start="0" data-purecounter-end="14" data-purecounter-duration="1" className="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="15" data-purecounter-duration="1" className="purecounter"></span>
                             <p>Faculty Members</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
-                            <span data-purecounter-start="0" data-purecounter-end="8" data-purecounter-duration="1" className="purecounter"></span>
+                            <span data-purecounter-start="0" data-purecounter-end="5" data-purecounter-duration="1" className="purecounter"></span>
                             <p>Staff Members</p>
                         </div>
                         <div className="col-lg-3 col-6 text-center">
@@ -315,13 +312,13 @@ export default function Home() {
                 </div>
             </section>
             {/* Sponsors and Recruiters Sections */}
-            <section id="supporters" className="section-with-bg">
-                <div className="container" data-aos="fade-up">
-                    <div className="section-header">
+            {/* <section id="supporters" className="section-with-bg">
+                <div className="container" data-aos="fade-up"> */}
+                    {/* <div className="section-header">
                         <h2>Sponsors and Recruiters</h2>
-                    </div>
-                    <div className="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
-                        <div className="col-lg-3 col-md-4 col-xs-6">
+                    </div> */}
+                    {/* <div className="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100"> */}
+                        {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/DST.jpeg'} className="img-fluid" alt="DST"/>
                             </div>
@@ -345,25 +342,25 @@ export default function Home() {
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/alogoAi.png'} className="img-fluid" alt="ALOGOAI"/>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/bakerHughes.png'} className="img-fluid" alt="BH"/>
                             </div>
                         </div> */}
-                        <div className="col-lg-3 col-md-4 col-xs-6">
+                        {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/eeki.jpeg'} className="img-fluid" alt="EEKI"/>
                             </div>
-                        </div>
+                        </div> */}
                         {/* <div className="col-lg-3 col-md-4 col-xs-6">
                             <div className="supporter-logo">
                             <img src={process.env.PUBLIC_URL + '/Images/Sponsors&Recruiters/nrl.jpeg'} className="img-fluid" alt="NRL"/>
                             </div>
                         </div> */}
-                    </div>
-                </div>
-            </section>
+                    {/* </div> */}
+                {/* </div>
+            </section> */}
             {/* <!-- End Sponsors Section --> */}
         </>
     )

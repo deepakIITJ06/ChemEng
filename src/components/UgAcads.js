@@ -56,7 +56,7 @@ export default function UgAcads() {
         <div className='container'>
                 <ul><Link aria-current="page" to='https://iitj.ac.in/uploaded_docs/dept_upload/cml/UG_Curriculum_document-2020-11-11-17-01-pm.pdf' target="_blank" rel="noopener noreferrer"><span class='bi bi-file-pdf-fill'>  Detailed Curriculum for B.Tech. Chemical Engineering</span></Link></ul>
                 <ul><Link aria-current="page" to='http://academics.iitj.ac.in/?page_id=415' target="_blank" rel="noopener noreferrer"><span class='bi bi-file-pdf-fill'> Program Structure of B.Tech. Chemical Engineering</span></Link></ul>
-                <ul><Link aria-current="page" to='https://iitj.ac.in/uploaded_docs/Regulation/Academic_Regulations_Final_03_09_2019.pdf' target="_blank" rel="noopener noreferrer"><span class='bi bi-file-pdf-fill'> Academic Regulations for Undergraduate Programs</span></Link></ul>
+                <ul><Link aria-current="page" to='https://iitj.ac.in/academics/index.php?id=regulations' target="_blank" rel="noopener noreferrer"><span class='bi bi-file-pdf-fill'> Academic Regulations for Undergraduate Programs</span></Link></ul>
                 <ul><Link aria-current="page" to='http://academics.iitj.ac.in/?page_id=379#1_Specializations_MinorsSpecialization/Minor%20Options%20for%20B.Tech.%20(CH)' target="_blank" rel="noopener noreferrer"><span class='bi bi-file-pdf-fill'> Specialization / Minor / Dual Degree</span></Link></ul>
         </div>
         <br></br><br></br>

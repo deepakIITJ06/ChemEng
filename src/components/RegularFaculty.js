@@ -5,7 +5,7 @@ import { Link } from 'react-router-dom'
 export default function RegularFaculty() {
     return (
         <>
-            <Navbar/>
+            <Navbar />
             <div className="breadcrumbs" data-aos="fade-in">
                 <div className="container">
                     <h2>Regular Faculty</h2>
@@ -13,32 +13,33 @@ export default function RegularFaculty() {
             </div>
             {/* <!-- ======= Team Section ======= --> */}
             <section className="team" data-aos="fade-up" data-aos-easing="ease-in-out" data-aos-duration="500">
-                <div className="container">
+                <div className="container ">
+                    
+                    <div className="col-lg-4 mx-auto d-flex align-items-stretch">
+                        <div className="member">
+                            <div className="member-img">
+                                <img src={process.env.PUBLIC_URL + '/Images/Faculty/Chem_hod.jpg'} className="img-fluid" alt="" />
+                                <div className="social">
+                                    <Link aria-current="page" to="mailto: pradiptewari@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
+                                    <Link aria-current="page" to="https://iitj.irins.org/profile/94300" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
+                                    <Link aria-current="page" to="https://sites.google.com/iitj.ac.in/pradipktewari/home" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
+                                    <Link aria-current="page" to="tel:+91-291-2801703"><i className="bi bi-phone-fill"></i></Link>
+                                    <Link aria-current="page" to="https://www.linkedin.com/in/pradip-k-tewari-497b546a/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
+                                </div>
+                            </div>
+                            <div className="member-info">
+                                <h4>Pradip K Tewari</h4>
+                                <span>Jal Jeevan Mission Professor Chair and Head of Department</span>
+                                <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
+                                <p style={{ textAlign: 'justify' }}>Water Technologies; Membrane Technology; Desalination; Nanocomposite Membrane Technology; Heat Transfer and Two Phase Flow.</p>
+                            </div>
+                        </div>
+                    </div>
                     <div className="row">
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/Chem_hod.jpg'} className="img-fluid" alt=""/>
-                                    <div className="social">
-                                        <Link aria-current="page" to="mailto: pradiptewari@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
-                                        <Link aria-current="page" to="https://iitj.irins.org/profile/94300" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
-                                        <Link aria-current="page" to="https://sites.google.com/iitj.ac.in/pradipktewari/home" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link>
-                                        <Link aria-current="page" to="tel:+91-291-2801703"><i className="bi bi-phone-fill"></i></Link>
-                                        <Link aria-current="page" to="https://www.linkedin.com/in/pradip-k-tewari-497b546a/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link>
-                                    </div>
-                                </div>
-                                <div className="member-info">
-                                    <h4>Pradip K Tewari</h4>
-                                    <span>Jal Jeevan Mission Professor Chair and Head of Department</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
-                                    <p style={{textAlign:'justify'}}>Water Technologies; Membrane Technology; Desalination; Nanocomposite Membrane Technology; Heat Transfer and Two Phase Flow.</p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                            <div className="member">
-                                <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/abhilasham.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/abhilasham.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: abhilasham@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/229215" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -50,7 +51,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Abhilasha Maheshwari</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay & Washington University</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay & Washington University</span></p>
                                     <p>Process Systems Engineering; Water Distribution Networks; Modelling; Optimization; Sustainability; Environmental Chemistry</p>
                                 </div>
                             </div>
@@ -58,7 +59,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/Angan.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/Angan.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: angan@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/158541" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -70,7 +71,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Angan Sengupta</h4>
                                     <span>Associate Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Molecular Modelling & Simulation; Theoretical Material Design; Carbon dioxide Capture; Hydrogen Storage; Water Treatment; Fuel Cell; Thermodynamic Studies; Continuum Modelling & Simulation; Fire and Explosion Modelling; Steady and Transient State Modelling; Safety Modelling; Process Modelling; Transport Processes</p>
                                 </div>
                             </div>
@@ -78,7 +79,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/deepakarora.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/deepakarora.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: deepakarora@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/120831" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -90,7 +91,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Deepak Arora</h4>
                                     <span>Associate Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :University of Massachusetts Amherst</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :University of Massachusetts Amherst</span></p>
                                     <p>Adhesion in electronic packaging and manufacture of high density interconnects; Polymer rheology; Polymer crystallization; Dielectrics for electronic packaging; Structure-process-property relationships for polymers and their composites</p>
                                 </div>
                             </div>
@@ -98,7 +99,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/krunal.jpeg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/krunal.jpeg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: krunalg@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/354355" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -110,7 +111,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Krunal M. Gangawane</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Roorkee</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Roorkee</span></p>
                                     <p>CFD; Lattice Boltzmann method; Aerogels; Nanoparticles-based phase change material</p>
                                 </div>
                             </div>
@@ -118,7 +119,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/nirmalya.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/nirmalya.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: nirmalya@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/196325" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -130,7 +131,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Nirmalya Bachhar</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Nanomaterials; polymer nanocomposite; self-assembly</p>
                                 </div>
                             </div>
@@ -138,7 +139,27 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/psarkar.png'} className="img-fluid" alt=""/>
+                                    <img src={'https://iitj.ac.in/dept_faculty_pic/2024-01-24-65b0d5ea0bca3-1706087914.jpg'} className="img-fluid" alt="" />
+                                    <div className="social">
+                                        <Link aria-current="page" to="mailto: parag@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
+                                        <Link aria-current="page" to="https://iitj.irins.org/profile/158035" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
+                                        {/* <Link aria-current="page" to="http://home.iitj.ac.in/~nirmalya/" target="_blank" rel="noopener noreferrer"><i class="fa-solid fa-house"></i></Link> */}
+                                        <Link aria-current="page" to="tel:+91-291-2801726"><i className="bi bi-phone-fill"></i></Link>
+                                        {/* <Link aria-current="page" to="https://www.linkedin.com/in/nirmalya-bachhar-219173b/" target="_blank" rel="noopener noreferrer"><i className="bi bi-linkedin"></i></Link> */}
+                                    </div>
+                                </div>
+                                <div className="member-info">
+                                    <h4>Parag Arvind Deshpande</h4>
+                                    <span>Professor</span>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>PhD. : Indian Institute of Science Bangalore</span></p>
+                                    <p>Computational catalysis; computational materials science; computational molecular biology</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
+                            <div className="member">
+                                <div className="member-img">
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/psarkar.png'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: psarkar@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/170899" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -150,7 +171,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Prasenjit Sarkar</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :North Carolina State University</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :North Carolina State University</span></p>
                                     <p>Biomolecular Engineering; Biochemical Engineering</p>
                                 </div>
                             </div>
@@ -158,7 +179,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/guptapk.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/guptapk.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: guptapk@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/196171" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -170,7 +191,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Prashant Kumar Gupta</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Kanpur</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Kanpur</span></p>
                                     <p>lectrochemical Energy Storage Devices (Lithium, Sodium and Zinc Ion Battery), Electrocatalysis (HER, OER, CER, and Electrochemical CO2 Reduction), Electrochemical Biosensors</p>
                                 </div>
                             </div>
@@ -178,7 +199,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/praveenks.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/praveenks.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: praveenks@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/196313" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -190,7 +211,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Praveen Kumar Sappidi</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Madras</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Madras</span></p>
                                     <p>Multiscale modeling, Molecular simulation, Free energy simulations, Contaminant separation materials, Ionic liquid based solvents, Polymeric materials</p>
                                 </div>
                             </div>
@@ -198,7 +219,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/rasapu.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/rasapu.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: rasapu@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/167042" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -210,7 +231,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Ramesh Asapu</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :University of Antwerp, Belgium</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :University of Antwerp, Belgium</span></p>
                                     <p>Photocatalysis; Environmental remediation; Modeling & Simulation; Plasmonic nanomaterials; Perovskites</p>
                                 </div>
                             </div>
@@ -218,7 +239,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/santhosh.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/santhosh.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: skvaranasi@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/388018" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -230,7 +251,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Santhosh Kumar Varanasi</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Hyderabad</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Hyderabad</span></p>
                                     <p>Machine learning; Soft sensor design; Sparse optimization; System Identification; Performance monitoring and assessment; Causality analysis; Model predictive control; Computer vision</p>
                                 </div>
                             </div>
@@ -238,7 +259,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/sumitkamal.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/sumitkamal.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: sumitkamal@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/259027" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -250,7 +271,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Sumit Kamal</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Fine Chemicals; Catalysis and Reaction Engineering, Process Development; Green Technology; Chemical Reaction Kinetics</p>
                                 </div>
                             </div>
@@ -258,7 +279,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/tara.jpeg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/tara.jpeg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: tckumawat@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/259025" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -270,7 +291,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Tara Chand Kumawat</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Kanpur</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Kanpur</span></p>
                                     <p>Hydrodynamic stability; flow through porous media; Computational Fluid Dynamics; Antibubbles</p>
                                 </div>
                             </div>
@@ -278,7 +299,7 @@ export default function RegularFaculty() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/vikky.jpg'} className="img-fluid" alt=""/>
+                                    <img src={process.env.PUBLIC_URL + '/Images/Faculty/vikky.jpg'} className="img-fluid" alt="" />
                                     <div className="social">
                                         <Link aria-current="page" to="mailto: vikky@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></Link>
                                         <Link aria-current="page" to="https://iitj.irins.org/profile/196164" target="_blank" rel="noopener noreferrer"><i className="bi bi-person-fill"></i></Link>
@@ -290,7 +311,7 @@ export default function RegularFaculty() {
                                 <div className="member-info">
                                     <h4>Vikky Anand</h4>
                                     <span>Assistant Professor</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>Ph.D. :Indian Institute of Technology Bombay</span></p>
+                                    <p><span style={{ fontWeight: 'bold', color: 'black' }}>Ph.D. :Indian Institute of Technology Bombay</span></p>
                                     <p>Electrohydrodynamics; Multiphase flow; Electro-desalting; Soft matter; Rheology</p>
                                 </div>
                             </div>

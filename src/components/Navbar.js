@@ -333,11 +333,11 @@ export default function Navbar() {
                           Publications
                         </Link>
                       </li>
-                      <li>
+                      {/* <li>
                         <Link aria-current="page" to="/sponsorsColabs">
                           Sponsors & Collaborators
                         </Link>
-                      </li>
+                      </li> */}
                     </ul>
                   </li>
                   <li className="dropdown">

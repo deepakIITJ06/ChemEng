@@ -55,7 +55,7 @@ export default function FooterComp() {
             {contextHolder}
             <footer id="footer">
                 <div className="footer-top">
-                    <div className="container">
+                    <div className="container ">
                         <div className="row">
                             <div className="col-lg-3 col-md-6 footer-contact">
                                 <h3><strong>Contact Us</strong></h3>
@@ -104,7 +104,7 @@ export default function FooterComp() {
                         </div>
                     </div>
                 </div>
-                <div className="container d-md-flex py-4">
+                <div className="container d-md-flex py-4 ">
                     <div className="me-md-auto text-center text-md-start">
                         <div className="copyright">
                             &copy;2023 All Rights Reserved, <strong><span>IIT Jodhpur</span></strong>.
@@ -114,10 +114,10 @@ export default function FooterComp() {
                         </div>
                     </div>
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                        <Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bx bxl-twitter"></i></Link>
+                        <Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bx bxl-twitter h-10 w-10"></i></Link>
                         <Link aria-current="page" to="https://www.facebook.com/ChemEngg.IITJ/" className="facebook" target="_blank" rel="noopener noreferrer"><i className="bx bxl-facebook"></i></Link>
                         <Link aria-current="page" to="https://www.instagram.com/chemengg_iitjodhpur/" className="instagram" target="_blank" rel="noopener noreferrer"><i className="bx bxl-instagram"></i></Link>
-                        <Link aria-current="page" to="https://www.youtube.com/channel/UCFfCylvEDIB1IH4GaRVRyLA" className="youtube" target="_blank" rel="noopener noreferrer"><i className="bx bxl-youtube"></i></Link>
+                        <Link aria-current="page" to="https://www.youtube.com/@chemeiitj" className="youtube" target="_blank" rel="noopener noreferrer"><i className="bx bxl-youtube"></i></Link>
                         <Link aria-current="page" to="https://in.linkedin.com/company/dept-chem-engg-iit-jodhpur?original_referer=https%3A%2F%2Fwww.google.com%2F" className="linkedin" target="_blank" rel="noopener noreferrer"><i className="bx bxl-linkedin"></i></Link>
                     </div>
                 </div>

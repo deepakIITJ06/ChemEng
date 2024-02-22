@@ -33,23 +33,6 @@ export default function TechStaff() {
                         <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
                             <div className="member">
                                 <div className="member-img">
-                                    <img src={process.env.PUBLIC_URL + '/Images/TechStaff/sachinmishra.jpg'} className="img-fluid" alt=""/>
-                                    <div className="social">
-                                        <a href="mailto: sachinmishra@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></a>
-                                        {/* <a href="tel:+91-222-5767212 "><i className="bi bi-phone"></i></a> */}
-                                        {/* <a href="#"><i className="bi bi-linkedin"></i></a> */}
-                                    </div>
-                                </div>
-                                <div className="member-info">
-                                    <h4>Sachin Mishra</h4>
-                                    <span>Junior Technical Assistant</span>
-                                    <p><span style={{fontWeight:'bold',color:'black'}}>B.Tech. (Chemical Engineering): S D college of Engineering and Technology Muzaffarnagar</span></p>
-                                </div>
-                            </div>
-                        </div>
-                        <div className="col-lg-4 col-md-6 d-flex align-items-stretch">
-                            <div className="member">
-                                <div className="member-img">
                                     <img src={process.env.PUBLIC_URL + '/Images/TechStaff/shriram.jpg'} className="img-fluid" alt=""/>
                                     <div className="social">
                                         <a href="mailto: shriram@iitj.ac.in"><i className="bi bi-envelope-at-fill"></i></a>
