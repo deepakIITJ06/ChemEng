@@ -130,7 +130,9 @@ export default function Home() {
                                 <h3>SEMINARS & WEBINARS</h3>
                                 <br></br>
                                 <ul>
-                                    <li><Link aria-current="page" to="/apratim-talk"><i className="bi bi-check-circle-fill onfocus"></i>Chemical Engineering Department Seminar Series - Expert talk by Dr. Apratim Chatterji 🌟</Link></li>
+                                    <li><Link aria-current="page" to="/apratim-talk"><i className="bi bi-check-circle-fill onfocus"></i>Chemical Engineering Department Seminar Series - Expert talk by Dr. Apratim Chatterji 
+                                    {showImage && <img src="https://nta.ac.in/img/newicon.gif"></img>}
+                                    </Link></li>
                                     <li><Link aria-current="page" to="/chaitanya-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert talk by Mr. Gottimukkala Chaitanya</Link></li>
                                     <li><Link aria-current="page" to="/mandalSandeep-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert talk by Prof. D. Mandal and Dr. Sandeep K.C.</Link></li>
                                     <li><Link aria-current="page" to="/aakash-talk"><i className="bi bi-check-circle-fill"></i>Chemical Engineering Department Seminar Series - Expert Talk by Dr. Aakash Sharma</Link></li>
