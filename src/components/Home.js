@@ -5,6 +5,19 @@ import { Link } from 'react-router-dom';
 import NewCounter from './NewCounter';
 
 export default function Home() {
+    // Date when the image/link was added or became active
+    const startDate = new Date('2024-02-22');
+    // Calculate the end date (7 days after the start date)
+    // const endDate = new Date(startDate.getTime() + ((16*60+1)*60*1000));
+    const endDate = new Date(startDate.getTime() + 30 * 24 * 60 * 60 * 1000);
+    // Get the current date
+    const currentDate = new Date();
+
+    // Check if the current date is before the end date
+    const showImage = currentDate <= endDate;
+    console.log("start", startDate);
+    console.log("end",endDate);
+    console.log("curr",currentDate);
     return (
         <>
             <Navbar/>
@@ -131,7 +144,9 @@ export default function Home() {
                                 <h3 style={{color:'var(--color-secondary)'}}>NOTICE BOARD</h3>
                                 <br></br>
                                 <ul>
-                                    <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/dept_upload/cml/PhD_Adv_Jan2024_image-2023-10-10-10-33-am.jpg" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>PhD Admissions AY 23-24 Sem II (Jan 2024) 🌟</Link></li>
+                                    <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/dept_upload/cml/PhD_Adv_Jan2024_image-2023-10-10-10-33-am.jpg" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>PhD Admissions AY 23-24 Sem II (Jan 2024) 
+                                    {showImage && <img src="https://nta.ac.in/img/newicon.gif"></img>}
+                                    </Link></li>
                                     <li><Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ/status/1640662570922295296?ref_src=twsrc%5Etfw%7Ctwcamp%5Etweetembed%7Ctwterm%5E1640662570922295296%7Ctwgr%5Ec3b68ecf16beb1a1edf4d84c7ed50409e50bcfba%7Ctwcon%5Es1_&ref_url=https%3A%2F%2Fiitj.ac.in%2Fdepartment%2Findex.php%3Fid%3Dresearch_highlights_and_initiativesnum%3D1045dept%3Dchemical" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>Congratulations to Dr. Nirmalya Bachhar for being awarded the MSRI prize</Link></li>
                                     <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/Rolling%20Advt.%20Ph.D.%202023_13032023.pdf" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>Rolling advertisement for Admission to Ph.D. Programmes</Link></li>
                                     <li><Link aria-current="page" to="https://iitj.ac.in/uploaded_docs/Advertisment_Mtech_Mtech%20phd_revised_12032023.pdf" style={{color:'var(--color-secondary)'}} target="_blank" rel="noopener noreferrer"><i className="bi bi-check-circle-fill"></i>Admission to M.Tech. and M.Tech.-Ph.D Dual Degree Programmes, AY 2023-24</Link></li>
