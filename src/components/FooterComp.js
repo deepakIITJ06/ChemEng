@@ -114,7 +114,7 @@ export default function FooterComp() {
                         </div>
                     </div>
                     <div className="social-links text-center text-md-right pt-3 pt-md-0">
-                        <Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bx bxl-twitter h-10 w-10"></i></Link>ç
+                        <Link aria-current="page" to="https://twitter.com/ChemEngg_IITJ" className="twitter" target="_blank" rel="noopener noreferrer"><i className="bx bxl-twitter h-10 w-10"></i></Link>
                         <Link aria-current="page" to="https://www.facebook.com/ChemEngg.IITJ/" className="facebook" target="_blank" rel="noopener noreferrer"><i className="bx bxl-facebook"></i></Link>
                         <Link aria-current="page" to="https://www.instagram.com/chemengg_iitjodhpur/" className="instagram" target="_blank" rel="noopener noreferrer"><i className="bx bxl-instagram"></i></Link>
                         <Link aria-current="page" to="https://www.youtube.com/@chemeiitj" className="youtube" target="_blank" rel="noopener noreferrer"><i className="bx bxl-youtube"></i></Link>
