@@ -192,12 +192,12 @@ export default function Navbar() {
                           <i className="bi bi-chevron-down dropdown-indicator"></i>
                         </Link>
                         <ul>
-                          <li>
+                          <li className="dropdown">
                             <Link aria-current="page" to="/regularFaculty">
                               Regular Faculty
                             </Link>
                           </li>
-                          <li>
+                          <li className="dropdown">
                             <Link aria-current="page" to="/scholarsResidence">
                               Scholars-in-Residence
                             </Link>
@@ -242,7 +242,7 @@ export default function Navbar() {
                         <ul>
                           <li>
                             <Link aria-current="page" to="/ugAcads">
-                              UnderGraduate Program
+                            UnderGraduate Program
                             </Link>
                           </li>
                           <li>
