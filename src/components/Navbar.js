@@ -242,7 +242,7 @@ export default function Navbar() {
                         <ul>
                           <li>
                             <Link aria-current="page" to="/ugAcads">
-                            UnderGraduate Program
+                              UnderGraduate Program
                             </Link>
                           </li>
                           <li>
