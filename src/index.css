@@ -11,3 +11,18 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+.dropdown {
+  position: relative;
+}
+
+.dropdown ul {
+  display: none;
+  position: absolute;
+  top: 100%; /* Makes it appear below the parent item */
+  left: 0;
+}
+
+.dropdown:hover ul {
+  display: block;
+}

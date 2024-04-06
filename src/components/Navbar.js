@@ -192,12 +192,12 @@ export default function Navbar() {
                           <i className="bi bi-chevron-down dropdown-indicator"></i>
                         </Link>
                         <ul>
-                          <li className="dropdown">
+                          <li>
                             <Link aria-current="page" to="/regularFaculty">
                               Regular Faculty
                             </Link>
                           </li>
-                          <li className="dropdown">
+                          <li>
                             <Link aria-current="page" to="/scholarsResidence">
                               Scholars-in-Residence
                             </Link>
